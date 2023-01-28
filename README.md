@@ -8,6 +8,18 @@ Make sure you have latest python version installed.
 git clone <repo-url>
 ```
 
+Change directory to project's root and create python's virtual env
+
+```bash
+python3 -m venv venv3
+```
+
+Activate virtual env
+
+```bash
+source venv3/bin/activate
+```
+
 ```bash
 pip install -r requirements.txt
 ```
